@@ -10,6 +10,8 @@
 {
     <p>姓名:@Html.TextBox(name: "name")</p>
     <p>體重:@Html.TextBox(name: "weight")</p>
-    <p>Hi @ViewBag.name,建議喝水量: @ViewBag.result</p>
+    if (ViewBag.result != "")
+    {    <p>Hi @ViewBag.name,建議喝水量: @ViewBag.result</p>
+    }
     <input type="submit" name="name" value="送出" />
 }
