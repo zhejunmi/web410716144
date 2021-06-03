@@ -165,7 +165,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Test\HW1.cshtml" />
-    <Content Include="Views\Test\WH2.cshtml" />
+    <Content Include="Views\Test\HW2.cshtml" />
     <Content Include="Views\Test\HW3.cshtml" />
     <Content Include="Views\Water\Index.cshtml" />
   </ItemGroup>
